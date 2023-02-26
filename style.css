@@ -1,0 +1,109 @@
+/*texto hero imagie*/
+
+.hero_titulo {
+	font-size: 4.5rem;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero_desc {
+	font-size: 2rem;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+.bgimage {
+	height: 100vh;
+	background: url('img/heroImage.jpg');
+	background-size: cover;
+	position: relative;
+}
+/*imagem sobre mim*/
+.imagemSobre {
+	width: 100%;
+}
+
+.sobre-mim {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: justify;
+}
+
+/*serviços*/
+#servicos {
+	text-align: center;
+}
+.servicesText.card {
+	height: 280px;
+	cursor: pointer;
+}
+.servicesIcon {
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+.card-title {
+	text-align: center;
+}
+.card:hover .servicesIcon{
+	color: #000000;
+}
+
+
+.servicesText:hover {
+	border: 1px solid #000000;
+}
+
+
+/*Menu*/
+.navbar {
+	background-color: #EBA966;
+}
+
+.navbar a {
+	color: black;
+}
+
+.navbar a:hover {
+	color: #CE7870;
+	background-color: #ECBC80;
+}
+
+.contactIcon {
+	font-size: 56px;
+	color: #CE7870;
+}
+
+.servicesIcon {
+	color: #CE7870;
+	font-size: 56px;
+
+}
+
+#sobre, #servicos, #portifolio, #contato {
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#servicos {
+	background-color: #ECBCB0;
+}
+
+#contato {
+	background-color: #ECBCB0;
+}
+
+#portifolio {
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+
+
+
+

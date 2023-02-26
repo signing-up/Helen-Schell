@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body{
+  background: #006D77;
+  font: "tilt warp";
+}
+
+.frame {
+  position: absolute;
+  background-color: #E29578;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  box-shadow: 8px 10px 10px rgb(0, 0, 0.5);
+}
+
+
+.frame, .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.flip-me{
+  position: absolute;
+  top: 33%;
+  left: 80%;
+  font-size: 19px;
+  transform: rotate(-90deg);
+  color: rgba(116, 163, 132, 0.9);
+}
+
+
+
+
+.front h1 {
+  font-family: satisfy, cursive;
+  font-size: 100px;
+  margin: 16px 80px;
+  color: #FB8F67;
+}
+
+
+/*faz virar*/
+
+.card:hover .flip {
+  transform: rotateX(180deg) translate3d(0, 0, 0);
+  box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flip {
+  transform-style: preserve-3d;
+  transition: all 0.7s ease-in-out;
+  perspective: 1000px;
+}
+
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background: #F8E16C;
+}
+
+
+
+
+
+
+.back {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+/*Web Developer*/
+.back h2 {
+  font-style: times;
+  font-size: 20px;
+  margin: 10px;
+  color: #D36060;
+}
+
+
+
+/*Nome*/
+.back h3 {
+  color: #D36060;
+  font-style: times;
+  font-size: 28px;
+  margin: 10px;
+}
+
+
+/*Contato*/
+.back h4 {
+    font-style: times;
+  color: #D36060;
+  font-weight: 300;
+  font-size: 17px;
+  margin: 13px;
+}
+
+
+.back h5 {
+  font-style: times;
+  color: #D36060;
+  font-weight: 300;
+  font-size: 13px;
+  margin: 5px;
+}
+
+
+
+img {
+  width: 32px;
+}
+
+
+img:hover {
+  width: 46px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.card .back {
+  transform: rotateX(-180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
